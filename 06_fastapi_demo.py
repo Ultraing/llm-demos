@@ -19,9 +19,9 @@ Demo 6: FastAPI 构建 LLM API 服务
   uvicorn 06_fastapi_demo:app --reload
 
 然后访问:
-  - http://127.0.0.1:8000           # 欢迎页
-  - http://127.0.0.1:8000/docs      # Swagger 交互式文档
-  - http://127.0.0.1:8000/redoc     # ReDoc 文档
+  - http://127.0.0.1:8001           # 欢迎页
+  - http://127.0.0.1:8001/docs      # Swagger 交互式文档
+  - http://127.0.0.1:8001/redoc     # ReDoc 文档
 """
 
 import sys
@@ -283,9 +283,9 @@ if __name__ == "__main__":
     print("启动服务中...")
     print()
     print("访问以下地址:")
-    print("  http://127.0.0.1:8000        # 欢迎页")
-    print("  http://127.0.0.1:8000/docs   # Swagger 交互式文档")
-    print("  http://127.0.0.1:8000/redoc  # ReDoc 文档")
+    print("  http://127.0.0.1:8001        # 欢迎页")
+    print("  http://127.0.0.1:8001/docs   # Swagger 交互式文档")
+    print("  http://127.0.0.1:8001/redoc  # ReDoc 文档")
     print()
     print("按 Ctrl+C 停止服务")
     print("=" * 60)
@@ -296,6 +296,6 @@ if __name__ == "__main__":
     uvicorn.run(
         "06_fastapi_demo:app",
         host="127.0.0.1",
-        port=8000,
+        port=8001,
         reload=True,
     )
