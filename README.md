@@ -1,6 +1,6 @@
 # LLM 学习 Demo 集合
 
-6 个循序渐进的 LLM 实战 Demo，从基础 API 调用到 Agent 开发，再到 API 服务部署。
+7 个循序渐进的 LLM 实战 Demo，从基础 API 调用到 Agent 开发，再到 API 服务部署。
 
 ## 项目简介
 
@@ -12,6 +12,7 @@
 - **Agent** — 让 LLM 调用工具、执行操作
 - **Prompt Engineering** — 掌握提示词优化技巧
 - **API 服务** — 用 FastAPI 将 LLM 能力封装为 HTTP 服务
+- **Context Engineering** — 掌握上下文组装、压缩、动态选择等核心技巧
 
 ## 快速开始
 
@@ -39,6 +40,9 @@ python 05_prompt_engineering.py
 
 # 运行 Demo 6: FastAPI 服务（访问 http://127.0.0.1:8001/docs）
 python 06_fastapi_demo.py
+
+# 运行 Demo 7: Context Engineering
+python 07_context_engineering.py
 ```
 
 ## Demo 列表
@@ -51,12 +55,14 @@ python 06_fastapi_demo.py
 | 04 | Agent 工具调用 | Function Calling、ReAct 循环、工具执行 |
 | 05 | Prompt Engineering | Zero-shot、Few-shot、CoT、角色扮演 |
 | 06 | FastAPI 服务 | Web 框架、请求校验、流式输出（SSE）、Swagger 文档 |
+| 07 | Context Engineering | 上下文组装、动态选择、上下文压缩、结构化上下文、窗口管理 |
 
 ## 学习路线
 
-建议按顺序学习：01 → 02 → 03 → 04 → 05 → 06
+建议按顺序学习：01 → 02 → 03 → 04 → 05 → 06 → 07
 
 - **01-02**: LLM 基础（API 调用和对话管理）
 - **03-04**: LLM 应用（RAG 和 Agent）
 - **05**: Prompt 优化（提升输出质量）
 - **06**: 服务部署（将 LLM 能力封装为 API 服务）
+- **07**: 上下文工程（组装、压缩、动态选择上下文）
