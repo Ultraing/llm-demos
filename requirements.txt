@@ -1,0 +1,8 @@
+# LLM Demo 依赖包
+# 使用方法: pip install -r requirements.txt
+
+# HTTP 请求库（调用 API 用）
+requests>=2.31.0
+
+# 数值计算库（向量计算、相似度等）
+numpy>=1.24.0
